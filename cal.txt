@@ -1,0 +1,36 @@
+public class calculator {
+
+    public double a = 50;
+
+    // Method for getting the value of 'a'
+    public double getA() {
+        return a;
+    }
+
+    // Method for addition
+    public double addition() {
+        double sum = a + 5;
+        return sum;
+    }
+
+    // Method for subtraction
+    public double subtraction() {
+        double subs = a - 5;
+        return subs;
+    }
+
+    // Method for multiplication
+    public double multiplication() {
+        double product = a * 5;
+        return product;
+    }
+
+    // Method for division
+    public double division() {
+        if (a == 0) {
+            return 0; // Handle division by zero error
+        }
+        double quotient = a / 5;
+        return quotient;
+    }
+}

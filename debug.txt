@@ -1,0 +1,6 @@
+calculator c = new calculator();
+System.debug('Value of a: ' + c.getA());
+System.debug('Addition result: ' + c.addition());
+System.debug('Subtraction result: ' + c.subtraction());
+System.debug('Multiplication result: ' + c.multiplication());
+System.debug('Division result: ' + c.division());
